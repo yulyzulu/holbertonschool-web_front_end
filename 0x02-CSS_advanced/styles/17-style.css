@@ -77,8 +77,7 @@ a:active {
 /* Container section */
 .container {
     width: 960px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 :root {
@@ -104,6 +103,12 @@ a:active {
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
 }
 /**
  * Render heading style element
