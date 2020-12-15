@@ -210,7 +210,7 @@ ul.row {
 }
 
 .social-link {
-    display: inline-block;
+    display: block;
 }
 
 .social-link svg {
