@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 0;
     height: 0.2rem;
     transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-cubic-bezier);
+    transition-property: var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before  {
