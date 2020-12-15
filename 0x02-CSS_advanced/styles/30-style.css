@@ -378,7 +378,7 @@ ul.row {
     right: 0;
     left: 0;
     bottom: 0;
-    content: "";
+    content: none;
 }
 
 .card-work:hover .card-title {
