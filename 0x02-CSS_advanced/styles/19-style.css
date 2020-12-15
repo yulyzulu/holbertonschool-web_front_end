@@ -100,10 +100,6 @@ a:active {
     padding: var(--footer-padding);
 }
 
-.footer ul {
-    text-align: right;
-}
-
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -201,4 +197,8 @@ ul .row {
     margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
+}
+
+.footer ul {
+    text-align: right;
 }
