@@ -286,11 +286,11 @@ ul.row {
     color: var(--color-primary);
 }
 
-/* .section-hero {
-    background-size: auto;
+.section-hero {
     width: 90rem;
     height: auto;
-} */
+    background-size: auto;
+}
 
 .section-hero .section-title {
     margin-bottom: 5rem;
