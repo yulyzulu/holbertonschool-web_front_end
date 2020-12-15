@@ -239,7 +239,7 @@ ul.row {
     background-color: var(--color-light-grey);
 }
 
-.card-services ~ a {
+.card-services a {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
