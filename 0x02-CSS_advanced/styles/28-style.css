@@ -317,6 +317,6 @@ ul.row {
 .header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    vertical-align: var(--header-logo-link-top);
-    text-align: var(--header-logo-link-left);
+    padding-top: var(--header-logo-link-top);
+    padding-left: var(--header-logo-link-left);
 }
