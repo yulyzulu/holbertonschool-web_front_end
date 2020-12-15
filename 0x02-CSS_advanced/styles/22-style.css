@@ -16,11 +16,6 @@ html {
     font-size: 62.5%;
 }
 
-html[data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background: var(--color-black);
-}
 /* Sections
    ========================================================================== */
 /**
@@ -144,6 +139,13 @@ a:active {
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
 }
+
+:root[data-section-theme=“dark”] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background: var(--color-black);
+}
+
 /**
  * Render heading style element
  */
