@@ -236,11 +236,11 @@ ul.row {
 .card-services a {
     display: inline-block;
     padding: 2rem;
-    background: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
 
-.card-services ~ a {
+.card-services ~ a:hover {
     color: var(--color-white);
-    background: var(--color-primary);
+    background-color: var(--color-primary);
     text-decoration: none;
 }
