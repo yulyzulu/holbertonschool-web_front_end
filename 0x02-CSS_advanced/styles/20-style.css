@@ -203,7 +203,7 @@ ul.row {
     text-align: right;
 }
 
-.wrapper {
+.row::after {
     content: none;
     display: table;
     float: none;
