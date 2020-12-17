@@ -1,0 +1,7 @@
+/* Columns and operators */
+$list-width: 100% 50% 33.3333333333% 25%;
+@for $i from 1 through length($list-width) {
+    .col-#{$i} {
+        width: nth($list-width, $i);
+    }
+}
