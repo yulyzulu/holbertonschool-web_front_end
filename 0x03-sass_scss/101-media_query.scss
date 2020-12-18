@@ -1,9 +1,8 @@
 /* Media query */
-font-h1: 20px;
+$font-h1: 20px;
 h1 {
-    font-size: font-h1;
-}
-
-if $width == "320px" {
-
+    font-size: $font-h1;
+    @media screen and (max-width: 320px) {
+        font-size: 14px;
+    }
 }
