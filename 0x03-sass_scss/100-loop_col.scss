@@ -1,8 +1,7 @@
-/* Use for and list to assign values */
+/* Columns and operators */
 
-$list-width: 100% 50% 33.3333333333% 25%;
-@for $i from 1 through length($list-width) {
+@for $i from 1 to 5 {
     .col-#{$i} {
-        width: nth($list-width, $i);
+        width: 100% / $i;
     }
 }
