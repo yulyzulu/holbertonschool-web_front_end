@@ -378,7 +378,7 @@
 
   /* Section ABOUT US
     ============================= */
-    .section-about-us [attr^="col-"] {
+    .section-about-us[class^="col-"] {
       align-self: center;
     }
 
