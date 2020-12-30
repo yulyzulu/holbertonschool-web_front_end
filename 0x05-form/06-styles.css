@@ -156,7 +156,7 @@
   }
 
   .button-primary{
-    color: --color-white;
+    color: var(--color-white);
     background: var(--color-primary);
   }
 
