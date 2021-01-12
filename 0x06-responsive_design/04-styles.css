@@ -440,7 +440,7 @@
     flex-direction: row-reverse;
   }
   @media all and (max-width: 767px) {
-    .section-latest-news row {
+    .section-latest-news .row {
       flex-direction: column;
     }
   }
