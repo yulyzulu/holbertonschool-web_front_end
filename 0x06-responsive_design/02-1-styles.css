@@ -231,7 +231,6 @@
     .col-1-3, .col-1-2 {
       width: 100%;
     }
-
   }
 
   /* Navbar
@@ -288,10 +287,10 @@
       display: none;
     }
   }
-  
+
   /* Header
       ============================= */
-  
+
   .header {
     padding: var(--header-padding);
     position: relative;
@@ -427,7 +426,7 @@
     flex-direction: row-reverse;
   }
   @media all and (max-width: 767px) {
-    .section-latest-news row {
+    .section-latest-news .row {
       flex-direction: column;
     }
   }
