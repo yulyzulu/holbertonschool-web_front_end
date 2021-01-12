@@ -284,7 +284,6 @@
   }
 
   @media all and (max-width: 767px) {
-
     :root {
       --nav-item-margin: 0;
     }
