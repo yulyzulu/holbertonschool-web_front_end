@@ -9,32 +9,39 @@
     border-color: #BC1340;
 }
 
-.btn-outline-primary {
+.btn-outline-primary{
     border-color: #E0003C;
     color: #E0003C;
 }
 
-a {
-    color: #E0003C !important ;
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus {
+    border-color: #E0003C;
+    color: white;
+    background-color: #E0003C;
 }
+
+a {
+    color: #E0003C;
+}
+
 a:hover, a:focus, a:active{
     color: #E0003C;
 }
 
 .card, .card-footer {
     border-color: #E0003C;
-    /* border-radius: 1rem; */
+    border-radius: 1rem;
 }
 
 .card-header {
     background-color: #E0003C;
-    border-radius: 1rem;
-
+    border-radius: inherit;
 }
 
-.card-footer {
-    background-color: #E0003C;
+.card-header:first-child {
     border-radius: 1rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .text-muted {
