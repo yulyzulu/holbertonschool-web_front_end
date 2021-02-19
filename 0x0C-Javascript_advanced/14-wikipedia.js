@@ -15,8 +15,9 @@ function queryWikipedia(callback) {
             if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
                 callback(xhr.response.query.pages["21721040"].extract);
             }
-        };
-    xhr.send(null);
+    };
+    xhr.responseType = "json";
+    xhr.send();
 }
 
 queryWikipedia(createElement);
