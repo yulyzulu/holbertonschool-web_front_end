@@ -4,7 +4,7 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>Task 7</title>
+        <title>Task 8</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     </head>
@@ -20,14 +20,15 @@
                         queryWikipedia($('input').val());
                     })
                     $('body').append("<ul></ul>");
+                    $('body').append("<ul id='pagination'></ul>");
                 }
                 function addNewArticle(id, title, snippet) {
                     $('ul').append(`<li><p><span>${id} - </span><b>${title}</b><p>${snippet}</p></li>`);
                 }
-                function queryWikipedia(search) {
+                function queryWikipedia(search, offset = 0) {
                     $.ajax({
                         type:"GET",
-                        url: `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${search}&utf8=&format=json&callback=?`,
+                        url: `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${search}&utf8=&sroffset=${offset}&format=json&callback=?`,
                         dataType: "json",
                         success: function(data) {
                             data.query.search.forEach(({pageid, title, snippet}) => {
@@ -39,6 +40,9 @@
                         }
                     });
                 };
+                function buildPagination(numberOfItems, itemsPerPage, currentOffset) {
+                    
+                }
                 createSearchForm();
             })
         </script>
