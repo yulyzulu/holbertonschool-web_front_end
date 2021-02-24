@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "fd",
+      "author": "fffff",
+      "id": 2
+    },
+    {
+      "title": "fd",
+      "author": "fffff",
+      "id": 3
+    },
+    {
+      "title": "f",
+      "author": "f",
+      "id": 4
+    },
+    {
+      "title": "",
+      "author": "",
+      "id": 5
+    },
+    {
+      "title": "Cien años de Soledad",
+      "author": "Gabriel García Marquez",
+      "id": 11
+    },
+    {
+      "title": "Libro",
+      "author": "Author",
+      "id": 12
+    },
+    {
+      "title": "sillygoose",
+      "author": "blablabla",
+      "id": 13
+    },
+    {
+      "title": "The lord of the rings",
+      "author": "J. R. R. Tolkien",
+      "id": 14
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
