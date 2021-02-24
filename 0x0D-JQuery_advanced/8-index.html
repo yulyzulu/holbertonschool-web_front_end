@@ -34,14 +34,25 @@
                             data.query.search.forEach(({pageid, title, snippet}) => {
                                 addNewArticle(pageid, title, snippet);
                             });
+                            buildPagination(data.query.searchinfo.totalhits, 10, offset);
                         },
                         error: function(error) {
-                            console.log('Not found')
+                            console.log('Not found');
                         }
                     });
                 };
                 function buildPagination(numberOfItems, itemsPerPage, currentOffset) {
-                    
+                    const displayPagination = numberOfItems / itemsPerPage;
+                    console.log(displayPagination)
+                    $('#pagination').empty();
+                    for(let i = 0; i < displayPagination; i++) {
+                        $("#pagination").append(`<a><li>${i + 1}</li></a>`);
+                    }
+                    $('li').css({ "display": "inline","cursor": "pointer", "margin-left": "10px"});
+                    $(`a:nth-of-type(${currentOffset || 1})`).css("font-weight", "bold");
+                    $('a').click(function() {
+                        queryWikipedia($("input:nth-of-type(1)").val(), this.children["0"].innerText);
+                    });
                 }
                 createSearchForm();
             })
