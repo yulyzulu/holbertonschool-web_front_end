@@ -33,7 +33,7 @@
             console.log(len)
             if (len.length > 0) {
                 let p = document.createElement('p');
-                p.innerText = `You previously had ${len.length} items in your cart`
+                p.innerText = `You previously had ${len.length - 1} items in your cart`
                 document.body.appendChild(p);
             }
         }
