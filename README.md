@@ -1,8 +1,10 @@
 # Web Front-end
-<img src="./img/languajes.png" alt="HTML,CSS,JS logo" />
+<p align="center">
+  <img src="./img/languajes.png" alt="HTML,CSS,JS logo" />
+</p>
 
 ## Projects
-Here you can find front-end technologies projects:
+Here you can find front-end technologies projects:  
 [0x00. Advanced HTML](./0x00-html_advanced/)  
 [ 0x01. Developer tools](./0x01-developer_tools/)  
 [0x02. Advanced CSS](./0x02-CSS_advanced/)  
